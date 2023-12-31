@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.glowable-text {
+  color: white;
+  background-color: black;
+}
+
+[glow] .glowable-text {
+  color: yellow;
+  background-color: red;
+}
